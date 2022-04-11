@@ -1,0 +1,26 @@
+//below is working:-
+D:
+cd D:\My_WorkSpace\JMeter_Sessions\JMeter_Is\B_Mr\JPetStore
+set NewDir=%date%_%time:~0,2%_%time:~3,2%_%time:~6,2%
+md "%NewDir%"
+move "D:\My_WorkSpace\JMeter_Sessions\JMeter_Is\B_Mr\JPetStore\TestResults\JTL_and_HTML_Report" "%NewDir%"
+
+
+D:
+cd D:\My_WorkSpace\JMeter_Sessions\JMeter_Is\B_Mr\JPetStore
+set NewDir=%date:~-10,2%_%date:~7,2%_%date:~-2,2%_%time:~0,2%_%time:~3,2%_%time:~6,2%
+md "%NewDir%"
+move "D:\My_WorkSpace\JMeter_Sessions\JMeter_Is\B_Mr\JPetStore\TestResults" "%NewDir%"
+
+
+set NewDir=%date:~7,2%_%date:~-10,2%_%date:~-2,2%_%time:~0,2%_%time:~3,2%_%time:~6,2%
+echo make dir %NewDir% ...
+mkdir "%NewDir%"
+copy D:\My_WorkSpace\JMeter_Sessions\JMeter_Is\B_Mr\JPetStore\TestResults\*.* NewDir
+
+
+//below cmd copies all files & folders from one directory to another directory:-
+xcopy "D:\My_WorkSpace\JMeter_Sessions\JMeter_Is\B_Mr\JPetStore\TestResults" "%NewDir%" /E /S /Q /Y
+
+//below cmd copies only single standalone files from one directory to another directory:-
+copy D:\My_WorkSpace\JMeter_Sessions\JMeter_Is\B_Mr\JPetStore\TestResults\*.* %NewDir%

@@ -1,0 +1,6 @@
+
+
+
+JMeterPPT       - https://docs.google.com/presentation/d/1Sp0GdAZ7fkjlvNVdQMYeKmT6h8hHGywJ/edit?usp=sharing&ouid=103206852289896115531&rtpof=true&sd=true
+Blazemeter cert - https://docs.google.com/presentation/d/1umcdwVM7Q2F9DTD1cI4z7lQvQhkNLfyP/edit?usp=sharing&ouid=103206852289896115531&rtpof=true&sd=true
+Perf_Issues     - https://docs.google.com/presentation/d/1az10IkxJxLZTGy78QX5M7DZAOblZPWPE/edit?usp=sharing&ouid=103206852289896115531&rtpof=true&sd=true
